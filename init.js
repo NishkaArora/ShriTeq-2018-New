@@ -51,12 +51,16 @@
 	    	$('#squiz-modal').modal();
 	    });
 
-	    $('#hack-btn').click(function() {
-	    	$('#hack-modal').modal();
+	    $('#hackathon-button').click(function() {
+	    	$('#hackathon-modal').modal();
 	    });
 
-	    $('#crypt-btn').click(function() {
-	    	$('#crypt-modal').modal();
+	    $('#prog-btn').click(function() {
+	    	$('#prog-modal').modal();
+	    });
+
+	    $('#gaming-btn').click(function() {
+	    	$('#gaming-modal').modal();
 	    });
 
 	    $("a").on('click', function(event) {
